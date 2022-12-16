@@ -1,0 +1,14 @@
+.site {
+}
+
+.site-header-inner-wrapper {
+  border: 2px solid red;
+}
+
+.site-main-inner-wrapper {
+  border: 2px solid green;
+}
+
+.site-footer-inner-wrapper {
+  border: 2px solid blue;
+}
