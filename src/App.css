@@ -1,14 +1,54 @@
 .site {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .site-header-inner-wrapper {
   border: 2px solid red;
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 24px;
+  display: flex;
+}
+
+.site-header .logo-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.site-header .logo {
+  height: 48px;
+}
+
+.site-header h1 {
+  line-height: 1;
 }
 
 .site-main-inner-wrapper {
   border: 2px solid green;
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 24px;
+}
+
+.site-main h2 {
+  margin-bottom: 0.5em;
+  font-size: 28px;
+}
+
+.site-main p {
+  line-height: 1.65;
+  margin-bottom: 1.5em;
 }
 
 .site-footer-inner-wrapper {
   border: 2px solid blue;
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 24px;
 }

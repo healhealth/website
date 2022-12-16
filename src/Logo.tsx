@@ -1,10 +1,5 @@
 const Logo = () => (
-  <svg
-    width="66.145836mm"
-    height="60.854164mm"
-    viewBox="0 0 66.145836 60.854164"
-    version="1.1"
-  >
+  <svg viewBox="0 0 66.145836 60.854164" version="1.1" className="logo">
     <g transform="translate(-34.708991,-35.630384)">
       <path
         style={{ fill: "#44aa00", stroke: "none" }}
