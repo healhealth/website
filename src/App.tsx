@@ -37,7 +37,11 @@ const App = () => (
       </div>
     </main>
     <footer className="site-footer">
-      <div className="site-footer-inner-wrapper">Footer will come here</div>
+      <div className="site-footer-inner-wrapper">
+        <div>Logo again</div>
+        <div>Address</div>
+        <nav>Social media links</nav>
+      </div>
     </footer>
   </div>
 );
