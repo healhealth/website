@@ -1,5 +1,7 @@
 import Logo from "./Logo";
 
+import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+
 import "./App.css";
 
 const App = () => (
@@ -21,11 +23,23 @@ const App = () => (
           dolores impedit expedita vero similique ad? Nostrum labore blanditiis
           molestiae!
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error
+          eum mollitia fugiat quia ab libero animi nisi asperiores consequuntur
+          vero qui neque labore inventore nihil quisquam tenetur, debitis
+          maxime?
+        </p>
         <h2>Products and solutions</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
           id amet sint et repellat corporis sapiente maiores, voluptatum modi
           suscipit ab aut in ex, repellendus doloribus eius reiciendis. Sed.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dicta
+          modi. Molestiae dolor fugiat libero adipisci sit quis. Minus
+          blanditiis veniam quibusdam aliquam! Ullam inventore itaque sed
+          excepturi ad unde.
         </p>
         <h2>Our amazing people</h2>
         <p>
@@ -34,13 +48,48 @@ const App = () => (
           accusantium nesciunt perferendis repudiandae magnam nostrum iure,
           distinctio doloribus inventore voluptates molestiae.
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          blanditiis nemo tenetur unde rerum necessitatibus, mollitia odio vel
+          totam recusandae maxime optio reiciendis incidunt distinctio sit
+          aliquid neque velit possimus?
+        </p>
       </div>
     </main>
     <footer className="site-footer">
       <div className="site-footer-inner-wrapper">
-        <div>Logo again</div>
-        <div>Address</div>
-        <nav>Social media links</nav>
+        <div>
+          <div>
+            <Logo />
+          </div>
+          <address>
+            <strong>Heal Health</strong>
+            <br />
+            Muldager 56, Brønshøj,
+            <br />
+            Copenhagen 2700
+          </address>
+        </div>
+        <div>
+          <nav className="social-media-links">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/healhealth/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="/" target="_blank" rel="noreferrer noopener">
+                  <FaFacebookSquare />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </footer>
   </div>
