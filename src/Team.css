@@ -1,0 +1,28 @@
+.our-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.team-member {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.team-member img {
+  max-width: 100%;
+}
+
+.team-member .name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.team-member p {
+  font-size: 14px;
+  margin: 0;
+}

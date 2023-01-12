@@ -1,8 +1,13 @@
-.site-main-inner-wrapper {
+.site-main-inner-wrapper.dark {
+  color: var(--color-lightgray);
+  background-color: var(--color-darkgray);
+}
+
+.site-main-inner-wrapper > section {
   max-width: var(--site-max-width);
   margin-inline: auto;
   padding-inline: 12px;
-  padding-block: 24px;
+  padding-block: 2em 4em;
 }
 
 .site-main h2 {
@@ -11,36 +16,11 @@
   text-transform: uppercase;
 }
 
+.site-main h3 {
+  font-size: 24px;
+}
+
 .site-main p {
   line-height: 1.65;
   margin-bottom: 1.5em;
-}
-
-.our-team {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-}
-
-.team-member {
-  text-align: center;
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
-.team-member img {
-  max-width: 100%;
-}
-
-.team-member .name {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.15;
-}
-
-.team-member p {
-  font-size: 14px;
-  margin: 0;
 }
