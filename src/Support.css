@@ -1,0 +1,34 @@
+.site-main-inner-wrapper > section.support {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  padding: 0;
+}
+
+.site-main-inner-wrapper > section.support > div:first-child {
+  padding-block: 2em 4em;
+}
+
+.support .hand {
+  width: 160px;
+  position: absolute;
+  top: 0;
+}
+
+.support .piggy {
+  width: 160px;
+  position: absolute;
+  bottom: 0;
+}
+
+.support .coin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e0c302;
+  position: absolute;
+  left: calc(50% - 16px);
+}
+
+.piggy-animation-wrapper {
+  position: relative;
+}

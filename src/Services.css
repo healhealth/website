@@ -1,0 +1,19 @@
+.picture-left,
+.picture-right {
+  display: flex;
+  margin-bottom: 3em;
+  gap: 1em;
+}
+
+.picture-right {
+  flex-direction: row;
+}
+
+.picture-left {
+  flex-direction: row-reverse;
+}
+
+.picture-left > img,
+.picture-right > img {
+  width: calc(100% / 3);
+}

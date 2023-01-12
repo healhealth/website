@@ -9,6 +9,7 @@ const Header = () => (
         <Logo />
         <h1>Heal Health</h1>
       </div>
+      <span>Democratizing mental wellbeing</span>
     </div>
   </header>
 );
