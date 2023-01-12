@@ -17,5 +17,6 @@ body {
   background-color: hsl(0deg 0% 97.5%);
   color: hsl(0deg 0% 12.5%);
 
-  --site-max-width: 960px;
+  --site-max-width: 800px;
+  --color-brand: #4a0;
 }

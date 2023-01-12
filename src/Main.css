@@ -7,10 +7,40 @@
 
 .site-main h2 {
   margin-bottom: 0.5em;
-  font-size: 28px;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 .site-main p {
   line-height: 1.65;
   margin-bottom: 1.5em;
+}
+
+.our-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.team-member {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.team-member img {
+  max-width: 100%;
+}
+
+.team-member .name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.team-member p {
+  font-size: 14px;
+  margin: 0;
 }
