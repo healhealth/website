@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 import Hand from "./hand.png";
 import Piggy from "./piggy.png";
@@ -7,6 +7,9 @@ import "./Support.css";
 
 const Support = () => {
   const supportWrapper = useRef<HTMLDivElement | null>(null);
+
+  const [coinPosition, setCoinPosition] = useState(0);
+  const [coinRotation, setCoinRotation] = useState(0);
 
   useEffect(() => {
     const windowScrollHandler = () => {
@@ -17,11 +20,20 @@ const Support = () => {
         supportWrapper.current?.getBoundingClientRect()?.top ?? 0;
       const supportWrapperHeight =
         supportWrapper.current?.getBoundingClientRect()?.height ?? 0;
+      const topOffset = 30;
+      const coinSize = 36;
+      const bottomOffset = 125 + coinSize;
 
-      const intervalLength = -1 * supportWrapperHeight - viewportHeight;
+      const intervalLength =
+        -1 * (supportWrapperHeight - topOffset - bottomOffset) - viewportHeight;
       const currentPosition = supportWrapperTop - viewportHeight;
-      const ratio = currentPosition / intervalLength;
-      console.log(`${(ratio * 100).toFixed(2)}%`);
+      const ratio = Math.max(0, Math.min(currentPosition / intervalLength, 1));
+
+      const position =
+        (supportWrapperHeight - topOffset - bottomOffset) * ratio + topOffset;
+
+      setCoinPosition(position);
+      setCoinRotation(ratio * 360 * 2);
     };
 
     window.addEventListener("scroll", windowScrollHandler);
@@ -59,7 +71,15 @@ const Support = () => {
         <div className="piggy-animation-wrapper">
           <img className="hand" src={Hand} alt="" />
           <img className="piggy" src={Piggy} alt="" />
-          <div className="coin" />
+          <div
+            className="coin"
+            style={{
+              top: coinPosition,
+              transform: `rotateY(${coinRotation}deg) rotateX(${coinRotation}deg)`,
+            }}
+          >
+            ❤
+          </div>
         </div>
       </section>
     </div>

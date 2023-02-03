@@ -21,12 +21,18 @@
 }
 
 .support .coin {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  background-color: #e0c302;
+  background-color: #fbd63e;
+  border: 2px solid #ef971f;
+  color: #efaa1f;
   position: absolute;
-  left: calc(50% - 16px);
+  left: calc(50% - 18px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
 }
 
 .piggy-animation-wrapper {
