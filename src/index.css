@@ -19,7 +19,7 @@ body {
   color: var(--color-darkgray);
 
   --site-max-width: 800px;
-  --color-brand: #4a0;
+  --color-brand: hsl(173deg 100% 33%);
   --color-lightgray: hsl(0deg 0% 97.5%);
   --color-darkgray: hsl(0deg 0% 12.5%);
 }
