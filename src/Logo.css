@@ -1,0 +1,4 @@
+.logo path {
+  stroke: 0;
+  fill: var(--color-brand);
+}
