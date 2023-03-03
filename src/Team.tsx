@@ -2,8 +2,8 @@ import Nashmil from "./nashmil.jpg";
 import Bence from "./bence-a-toth.jpg";
 import Qamar from "./qamar.jpg";
 import Aijaz from "./aijaz.jpg";
-import Behzad from "./behzad.jpg";	
-import Marcell from "./marcell.jpg";	
+import Behzad from "./behzad.jpg";
+import Marcell from "./marcell.jpg";
 
 import "./Team.css";
 
@@ -18,7 +18,12 @@ const Team = () => (
             <div className="name">Nashmil Sepehriazad</div>
             <div className="role">Founder, Managing Director</div>
           </div>
-          <p>A multi-passionate with a background in Software Engineering and Psychology.Poet & Writer. Children and Nature-lover. An admirer of Arts of all kinds.Advocate of equal, accessible and efficient mental healthcare for all.</p>
+          <p>
+            A multi-passionate with a background in Software Engineering and
+            Psychology.Poet & Writer. Children and Nature-lover. An admirer of
+            Arts of all kinds.Advocate of equal, accessible and efficient mental
+            healthcare for all.
+          </p>
         </div>
         <div className="team-member">
           <img src={Bence} alt="" />
@@ -39,9 +44,9 @@ const Team = () => (
             <div className="role">Graphics Designer</div>
           </div>
           <p>
-          A creative and open-minded graphic designer. 
-          Enthusiastic about human rights. Experienced in education and special needs. 
-          Fan of modern art. Lover of literature and cinema. Amazed by 1960s culture.
+            A creative and open-minded graphic designer. Enthusiastic about
+            human rights. Experienced in education and special needs. Fan of
+            modern art. Lover of literature and cinema. Amazed by 1960s culture.
           </p>
         </div>
         <div className="team-member">
