@@ -17,9 +17,9 @@ const Team = () => (
             <div className="role">Founder, Managing Director</div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
-            dolores.
+          A multi-passionate with a bachelor's in Software Engineering and a Master's in Psychology. 
+          Poet & Writer. Children and Nature-lover. An admirer of Arts of all kinds. 
+          Advocate of equal, accessible and efficient mental healthcare for all.
           </p>
         </div>
         <div className="team-member">
@@ -41,9 +41,9 @@ const Team = () => (
             <div className="role">Graphics Designer</div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
-            dolores.
+          A creative and open-minded graphic designer. 
+          Enthusiastic about human rights. Experienced in education and special needs. 
+          Fan of modern art. Lover of literature and cinema. Amazed by 1960s culture.
           </p>
         </div>
         <div className="team-member">
