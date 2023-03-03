@@ -80,7 +80,7 @@ const Team = () => (
             <div className="role">Software Engineer</div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            esme vaghei ahmade zoghi sit amet consectetur adipisicing elit. Aspernatur
             enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
             dolores.
           </p>
