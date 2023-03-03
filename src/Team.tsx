@@ -3,6 +3,7 @@ import Bence from "./bence-a-toth.jpg";
 import Qamar from "./qamar.jpg";
 import Aijaz from "./aijaz.jpg";
 import Behzad from "./behzad.jpg";	
+import Marcell from "./marcell.jpg";	
 
 import "./Team.css";
 
@@ -32,7 +33,7 @@ const Team = () => (
           </p>
         </div>
         <div className="team-member">
-          <img src="https://placekitten.com/g/320/320" alt="" />
+          <img src={Marcell} alt="" />
           <div>
             <div className="name">Marcell Ákos Tóth</div>
             <div className="role">Graphics Designer</div>
