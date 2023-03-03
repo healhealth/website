@@ -2,6 +2,7 @@ import Nashmil from "./nashmil.jpg";
 import Bence from "./bence-a-toth.jpg";
 import Qamar from "./qamar.jpg";
 import Aijaz from "./aijaz.jpg";
+import Behzad from "./behzad.jpg";	
 
 import "./Team.css";
 
@@ -58,6 +59,18 @@ const Team = () => (
           <img src={Aijaz} alt="" />
           <div>
             <div className="name">Aijaz Ahmad</div>
+            <div className="role">Software Engineer</div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
+            dolores.
+          </p>
+        </div>
+        <div className="team-member">
+          <img src={Behzad} alt="" />
+          <div>
+            <div className="name">Behzad Ebrahimi</div>
             <div className="role">Software Engineer</div>
           </div>
           <p>
