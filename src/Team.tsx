@@ -16,11 +16,7 @@ const Team = () => (
             <div className="name">Nashmil Sepehriazad</div>
             <div className="role">Founder, Managing Director</div>
           </div>
-          <p>
-          A multi-passionate with a bachelor's in Software Engineering and a Master's in Psychology. 
-          Poet & Writer. Children and Nature-lover. An admirer of Arts of all kinds. 
-          Advocate of equal, accessible and efficient mental healthcare for all.
-          </p>
+          <p>A multi-passionate with a background in Software Engineering and Psychology.Poet & Writer. Children and Nature-lover. An admirer of Arts of all kinds.Advocate of equal, accessible and efficient mental healthcare for all.</p>
         </div>
         <div className="team-member">
           <img src={Bence} alt="" />
