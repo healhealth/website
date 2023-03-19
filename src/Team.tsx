@@ -20,9 +20,9 @@ const Team = () => (
           </div>
           <p>
             A multi-passionate with a background in Software Engineering and
-            Psychology.Poet & Writer. Children and Nature-lover. An admirer of
-            Arts of all kinds.Advocate of equal, accessible and efficient mental
-            healthcare for all.
+            Psychology. Poet & writer. Children and nature-lover. An admirer of
+            arts of all kinds. Advocate of equal, accessible and efficient
+            mental healthcare for all.
           </p>
         </div>
         <div className="team-member">
