@@ -2,7 +2,7 @@ import Nashmil from "./nashmil.jpg";
 import Bence from "./bence-a-toth.jpg";
 import Qamar from "./qamar.jpg";
 import Aijaz from "./aijaz.jpg";
-import Behzad from "./Behzad.jpg";
+import Behzad from "./behzad.jpg";
 import Marcell from "./marcell.jpg";
 
 import "./Team.css";
