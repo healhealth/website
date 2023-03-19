@@ -32,9 +32,10 @@ const Team = () => (
             <div className="role">Principal Software Engineer</div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
-            dolores.
+            Front-end developer, software architect, team lead, tech lead,
+            mentor, teacher, tutor, volunteer, open source advocate, functional
+            programming enthusiast, accessibility nerd, CSS ninja. Building
+            software and relationships.
           </p>
         </div>
         <div className="team-member">
