@@ -19,10 +19,9 @@ const Team = () => (
             <div className="role">Founder, Managing Director</div>
           </div>
           <p>
-            A multi-passionate with a background in Software Engineering and
-            Psychology. Poet & writer. Children and nature-lover. An admirer of
-            arts of all kinds. Advocate of equal, accessible and efficient
-            mental healthcare for all.
+            Multi-passionate, psychotherapist, software engineer, poet & writer,
+            children and nature-lover., admirer of arts of all kinds, advocate
+            of equal, accessible and efficient mental healthcare for all.
           </p>
         </div>
         <div className="team-member">
@@ -45,9 +44,9 @@ const Team = () => (
             <div className="role">Graphics Designer</div>
           </div>
           <p>
-            A creative and open-minded graphic designer. Enthusiastic about
-            human rights. Experienced in education and special needs. Fan of
-            modern art. Lover of literature and cinema. Amazed by 1960s culture.
+            Creative and open-minded graphic designer. Enthusiastic about human
+            rights. Experienced in education and special needs. Fan of modern
+            art. Lover of literature and cinema. Amazed by 1960s culture.
           </p>
         </div>
         <div className="team-member">
@@ -57,9 +56,9 @@ const Team = () => (
             <div className="role">Software Engineer</div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
-            dolores.
+            Determined and enthusiastic Fullstack Engineer. Problem-solver and
+            quick learner. Flexible and experienced working with people across
+            multiple geographies.
           </p>
         </div>
         <div className="team-member">
@@ -69,9 +68,9 @@ const Team = () => (
             <div className="role">Software Engineer</div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            enim nulla culpa quam ipsam. Iure, architecto culpa exercitationem
-            dolores.
+            Passionate and creative Frontend Engineer. Naturally out of the box
+            thinker. Open-minded, strong team-player and always thriving to
+            learn new technologies.
           </p>
         </div>
         <div className="team-member">
@@ -81,9 +80,8 @@ const Team = () => (
             <div className="role">Software Engineer</div>
           </div>
           <p>
-            esme vaghei ahmade zoghi sit amet consectetur adipisicing elit.
-            Aspernatur enim nulla culpa quam ipsam. Iure, architecto culpa
-            exercitationem dolores.
+            Radiant Software Developer with aspirations for excellence and
+            ambitions for a fruitful career. Musician.
           </p>
         </div>
       </div>
