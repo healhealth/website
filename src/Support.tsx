@@ -77,7 +77,7 @@ const Support = () => {
             className="coin"
             style={{
               top: coinPosition,
-              transform: `rotateY(${coinRotation}deg) rotateX(${coinRotation}deg)`,
+              transform: `rotate(${coinRotation}deg)`,
             }}
           >
             ❤

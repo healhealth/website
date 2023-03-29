@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 160px;
   padding: 0;
+  padding-inline: 12px;
 }
 
 .site-main-inner-wrapper > section.support > div:first-child {
