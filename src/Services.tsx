@@ -1,7 +1,7 @@
 import "./Services.css";
-import { ReactComponent as Logo1 } from "./mental-health-professionals.svg";
-import { ReactComponent as Logo2 } from "./self-help.svg";
-import { ReactComponent as Logo3 } from "./coaching.svg";
+import { ReactComponent as MentalHealthProfessionals } from "./mental-health-professionals.svg";
+import { ReactComponent as SelfHelp } from "./self-help.svg";
+import { ReactComponent as Coaching } from "./coaching.svg";
 
 const Services = () => (
   <div className="site-main-inner-wrapper">
@@ -17,9 +17,10 @@ const Services = () => (
             outcomes and quality mental healthcare for their clients.
           </p>
         </div>
-        <Logo1 />
+        <MentalHealthProfessionals />
       </section>
       <section className="picture-left">
+        <SelfHelp />
         <div>
           <h3>Self-help tools</h3>
           <p>
@@ -33,7 +34,6 @@ const Services = () => (
             specific mental health concerns
           </p>
         </div>
-        <Logo2 />
       </section>
       <section className="picture-right">
         <div>
@@ -54,7 +54,7 @@ const Services = () => (
             accountability.
           </p>
         </div>
-        <Logo3 />
+        <Coaching />
       </section>
     </section>
   </div>
