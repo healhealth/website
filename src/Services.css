@@ -18,3 +18,19 @@
   height: auto;
   width: 240px;
 }
+
+@media (max-width: 800px) {
+  .picture-right,
+  .picture-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .picture-right {
+    flex-direction: column-reverse;
+  }
+
+  .picture-left {
+    flex-direction: column;
+  }
+}
