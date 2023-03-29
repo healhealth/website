@@ -17,6 +17,8 @@ const Footer = () => (
           Muldager 56, Brønshøj,
           <br />
           Copenhagen 2700
+          <br />
+          CVR number: 43883372
         </address>
       </div>
       <div>
@@ -32,7 +34,11 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="/" target="_blank" rel="noreferrer noopener">
+              <a
+                href="https://www.facebook.com/healhealthdk"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <FaFacebookSquare />
               </a>
             </li>

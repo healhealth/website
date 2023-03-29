@@ -13,8 +13,6 @@ const Support = () => {
 
   useEffect(() => {
     const windowScrollHandler = () => {
-      // console.log("I am scrolling");
-      // console.log(supportWrapper.current);
       const viewportHeight = window.innerHeight;
       const supportWrapperTop =
         supportWrapper.current?.getBoundingClientRect()?.top ?? 0;
@@ -50,22 +48,23 @@ const Support = () => {
           <h2>Support us</h2>
           <p>Donating is caring.</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-            eos iusto, laboriosam ex, eveniet ducimus aspernatur provident nisi
-            adipisci incidunt quam error possimus facere perspiciatis tempora
-            quis ratione alias porro.
+            At Heal Health, we believe that mental health is a fundamental human
+            right and that everyone should have access to the support they need.
+            We are committed to providing free mental health services to those
+            who need it most, but we need your help.
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-            eos iusto, laboriosam ex, eveniet ducimus aspernatur provident nisi
-            adipisci incidunt quam error possimus facere perspiciatis tempora
-            quis ratione alias porro.
+            Our mission is to help as many people as possible, but in order to
+            do that we rely on the support of generous donors like you. With
+            your donation, we will be able to continue providing free mental
+            health services to those who need it most. We understand that these
+            are difficult times, but any amount you can give, no matter how
+            small, will make a big difference in the lives of those we serve.
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-            eos iusto, laboriosam ex, eveniet ducimus aspernatur provident nisi
-            adipisci incidunt quam error possimus facere perspiciatis tempora
-            quis ratione alias porro.
+            Your support will help us to continue providing vital mental health
+            services to those who need it most. Thank you for your support and
+            for helping us to make mental health care accessible to all.
           </p>
         </div>
         <div className="piggy-animation-wrapper">
@@ -75,7 +74,7 @@ const Support = () => {
             className="coin"
             style={{
               top: coinPosition,
-              transform: `rotateY(${coinRotation}deg) rotateX(${coinRotation}deg)`,
+              transform: `rotate(${coinRotation}deg)`,
             }}
           >
             ❤

@@ -1,19 +1,36 @@
 .picture-left,
 .picture-right {
-  display: flex;
+  display: grid;
   margin-bottom: 3em;
   gap: 1em;
 }
 
 .picture-right {
-  flex-direction: row;
+  grid-template-columns: 1fr 240px;
 }
 
 .picture-left {
-  flex-direction: row-reverse;
+  grid-template-columns: 240px 1fr;
 }
 
-.picture-left > img,
-.picture-right > img {
-  width: calc(100% / 3);
+.picture-left > svg,
+.picture-right > svg {
+  height: auto;
+  width: 240px;
+}
+
+@media (max-width: 800px) {
+  .picture-right,
+  .picture-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .picture-right {
+    flex-direction: column-reverse;
+  }
+
+  .picture-left {
+    flex-direction: column;
+  }
 }

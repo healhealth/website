@@ -23,3 +23,21 @@ body {
   --color-lightgray: hsl(0deg 0% 97.5%);
   --color-darkgray: hsl(0deg 0% 12.5%);
 }
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-lightgray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand);
+  border: 3px solid var(--color-lightgray);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-darkgray);
+}
