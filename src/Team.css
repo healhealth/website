@@ -4,6 +4,18 @@
   gap: 2em;
 }
 
+@media (max-width: 640px) {
+  .our-team {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-team {
+    grid-template-columns: 1fr;
+  }
+}
+
 .team-member {
   text-align: center;
   font-size: 16px;
