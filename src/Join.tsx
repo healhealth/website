@@ -1,5 +1,5 @@
 const Join = () => (
-  <div className="site-main-inner-wrapper dark">
+  <div className="site-main-inner-wrapper">
     <section>
       <h2>Join us</h2>
       <p>

@@ -1,5 +1,6 @@
 .site-footer {
-  border-bottom: 1px solid hsl(0deg 0% 85%);
+  color: var(--color-lightgray);
+  background-color: var(--color-darkgray);
 }
 
 .site-footer-inner-wrapper {
@@ -9,6 +10,18 @@
   padding-block: 24px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .site-footer-inner-wrapper {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .site-footer-inner-wrapper > div {
+    text-align: center;
+  }
 }
 
 .site-footer .logo {
