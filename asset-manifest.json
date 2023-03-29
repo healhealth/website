@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.253c8cd7.css",
-    "main.js": "/website/static/js/main.20e24f5b.js",
+    "main.css": "/website/static/css/main.bd831459.css",
+    "main.js": "/website/static/js/main.69a68cc4.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/bence-a-toth.jpg": "/website/static/media/bence-a-toth.4458d6e1546ef3cd462b.jpg",
     "static/media/marcell.jpg": "/website/static/media/marcell.3faa30c2fb16e4eb032b.jpg",
@@ -9,14 +9,16 @@
     "static/media/aijaz.jpg": "/website/static/media/aijaz.93e363e72bbbc98c102f.jpg",
     "static/media/qamar.jpg": "/website/static/media/qamar.05646116060abfb89cb6.jpg",
     "static/media/behzad.jpg": "/website/static/media/behzad.c39f742e9d790ec8f0c9.jpg",
-    "static/media/hand.png": "/website/static/media/hand.5bbb796df4344c552454.png",
+    "static/media/coaching.svg": "/website/static/media/coaching.c9afc6251e5f335cb19e60244be4a87b.svg",
+    "static/media/mental-health-professionals.svg": "/website/static/media/mental-health-professionals.860c367611a5f4b14b1a80b5388e527b.svg",
+    "static/media/self-help.svg": "/website/static/media/self-help.41a170720c67eb8f06b86bae2c7120b9.svg",
     "index.html": "/website/index.html",
-    "main.253c8cd7.css.map": "/website/static/css/main.253c8cd7.css.map",
-    "main.20e24f5b.js.map": "/website/static/js/main.20e24f5b.js.map",
+    "main.bd831459.css.map": "/website/static/css/main.bd831459.css.map",
+    "main.69a68cc4.js.map": "/website/static/js/main.69a68cc4.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.253c8cd7.css",
-    "static/js/main.20e24f5b.js"
+    "static/css/main.bd831459.css",
+    "static/js/main.69a68cc4.js"
   ]
 }
