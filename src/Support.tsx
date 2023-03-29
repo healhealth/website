@@ -13,8 +13,6 @@ const Support = () => {
 
   useEffect(() => {
     const windowScrollHandler = () => {
-      // console.log("I am scrolling");
-      // console.log(supportWrapper.current);
       const viewportHeight = window.innerHeight;
       const supportWrapperTop =
         supportWrapper.current?.getBoundingClientRect()?.top ?? 0;
@@ -66,8 +64,7 @@ const Support = () => {
           <p>
             Your support will help us to continue providing vital mental health
             services to those who need it most. Thank you for your support and
-            for helping us to make mental health care accessible to all. donate
-            now!
+            for helping us to make mental health care accessible to all.
           </p>
         </div>
         <div className="piggy-animation-wrapper">
