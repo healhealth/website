@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/website/static/css/main.253c8cd7.css",
-    "main.js": "/website/static/js/main.89503638.js",
+    "main.js": "/website/static/js/main.20e24f5b.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/bence-a-toth.jpg": "/website/static/media/bence-a-toth.4458d6e1546ef3cd462b.jpg",
-    "static/media/nashmil.jpg": "/website/static/media/nashmil.66cc3ce06d08c4e21c5a.jpg",
-    "static/media/qamar.jpg": "/website/static/media/qamar.c457e18f036c722c2ee5.jpg",
-    "static/media/aijaz.jpg": "/website/static/media/aijaz.c9d32c8312358d35e10d.jpg",
+    "static/media/marcell.jpg": "/website/static/media/marcell.3faa30c2fb16e4eb032b.jpg",
+    "static/media/nashmil.jpg": "/website/static/media/nashmil.cd0fdb2b2e8541799ab9.jpg",
+    "static/media/aijaz.jpg": "/website/static/media/aijaz.93e363e72bbbc98c102f.jpg",
+    "static/media/qamar.jpg": "/website/static/media/qamar.05646116060abfb89cb6.jpg",
+    "static/media/behzad.jpg": "/website/static/media/behzad.c39f742e9d790ec8f0c9.jpg",
     "static/media/hand.png": "/website/static/media/hand.5bbb796df4344c552454.png",
     "index.html": "/website/index.html",
     "main.253c8cd7.css.map": "/website/static/css/main.253c8cd7.css.map",
-    "main.89503638.js.map": "/website/static/js/main.89503638.js.map",
+    "main.20e24f5b.js.map": "/website/static/js/main.20e24f5b.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.253c8cd7.css",
-    "static/js/main.89503638.js"
+    "static/js/main.20e24f5b.js"
   ]
 }
