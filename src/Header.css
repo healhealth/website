@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1em;
 }
 
 .site-header .logo-wrapper {
@@ -24,4 +25,8 @@
 
 .site-header h1 {
   line-height: 1;
+}
+
+.site-header .tagline {
+  text-align: right;
 }

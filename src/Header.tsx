@@ -7,9 +7,9 @@ const Header = () => (
     <div className="site-header-inner-wrapper">
       <div className="logo-wrapper">
         <Logo />
-        <h1>Heal Health</h1>
+        <h1>Heal&nbsp;Health</h1>
       </div>
-      <span>Democratizing mental wellbeing</span>
+      <div className="tagline">Democratizing mental&nbsp;wellbeing</div>
     </div>
   </header>
 );
