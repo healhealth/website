@@ -5,6 +5,12 @@
   padding-inline: 12px;
 }
 
+@media (max-width: 640px) {
+  .site-main-inner-wrapper > section.support {
+    padding-inline: 24px;
+  }
+}
+
 .site-main-inner-wrapper > section.support > div:first-child {
   padding-block: 2em 4em;
 }
