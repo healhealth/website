@@ -5,9 +5,8 @@ const Join = () => (
       <p>
         Are you passionate about mental health and technology? Are you looking
         for an opportunity to gain experience and make a difference in the
-        field? We are excited to announce that Heal Health ApS is currently
-        seeking new members to join our team on a voluntary or unpaid internship
-        basis.
+        field? We are excited to announce that Heal Health is currently seeking
+        new members to join our team on a voluntary or unpaid internship basis.
       </p>
       <p>
         As a startup, we are dedicated to creating innovative and effective

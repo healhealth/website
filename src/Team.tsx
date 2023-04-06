@@ -19,9 +19,10 @@ const Team = () => (
             <div className="role">Founder, Managing Director</div>
           </div>
           <p>
-            Multi-passionate, psychotherapist, software engineer, poet & writer,
-            children and nature-lover., admirer of arts of all kinds, advocate
-            of equal, accessible and efficient mental healthcare for all.
+            Multi-passionate. Psychotherapist and personal development coach.
+            Software engineer. Poet & writer. Children and nature-lover. Admirer
+            of arts of all kinds. Advocate of equal, accessible and efficient
+            mental healthcare for all.
           </p>
         </div>
         <div className="team-member">
@@ -81,7 +82,8 @@ const Team = () => (
           </div>
           <p>
             Radiant Software Developer with aspirations for excellence and
-            ambitions for a fruitful career. Musician.
+            ambitions for a fruitful career. A machinist who redeems the noises
+            of the workplace with the pursuit of music in the free time.
           </p>
         </div>
       </div>
