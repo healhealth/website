@@ -12,7 +12,7 @@ const Footer = () => (
           <Logo />
         </div>
         <address>
-          <strong>Heal Health</strong>
+          <strong>Heal Health ApS</strong>
           <br />
           Muldager 56, Brønshøj,
           <br />

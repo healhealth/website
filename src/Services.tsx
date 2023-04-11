@@ -31,7 +31,7 @@ const Services = () => (
             symptoms. These tools can take many forms, including apps, videos,
             and websites. We are going to provide information, guidance, and
             techniques for managing stress, improving mood, and addressing
-            specific mental health concerns
+            specific mental health concerns.
           </p>
         </div>
       </section>
@@ -39,18 +39,18 @@ const Services = () => (
         <div>
           <h3>Personal Development Coaching</h3>
           <p>
-            Our team of psychotherapists and personal coaches collaborate with
-            clients to identify, pursue, and achieve their goals using various
-            techniques such as goal-setting, active listening, motivational
-            interview, behavioral change, and more. Our personal development
-            coaching program is specifically designed to help clients enhance
-            important aspects of personal growth, including self-awareness,
-            confidence, communication, upskilling, and positive thinking.
-            Clients can choose to hire a personal development coach for
-            one-to-one sessions, or companies and organizations can work with
-            our coaches to support their employees, managers, and leaders.
-            Regardless of the approach, our coaches serve as strategic thinking
-            partners and sounding boards, providing inspiration and
+            Our team of psychotherapists and personal development coaches
+            collaborate with clients to identify, pursue, and achieve their
+            goals using various techniques such as goal-setting, active
+            listening, motivational interview, behavioral change, and many more.
+            Our personal development coaching program is specifically designed
+            to help clients enhance important aspects of personal growth,
+            including self-awareness, confidence, communication, upskilling, and
+            positive thinking. Clients can choose to hire a personal development
+            coach for one-to-one sessions, or companies and organizations can
+            work with our coaches to support their employees, managers, and
+            leaders. Regardless of the approach, our coaches serve as strategic
+            thinking partners and sounding boards, providing inspiration and
             accountability.
           </p>
         </div>
