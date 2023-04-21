@@ -26,7 +26,7 @@ const Services = () => (
           <p>
             We are developing free efficient self-help tools for mental
             well-being which can be utilized by both individuals and prescribed
-            by professionals to their clients. Individuals can use this tools to
+            by professionals to their clients. Individuals can use the tools to
             improve their mental well-being and manage their mental health
             symptoms. These tools can take many forms, including apps, videos,
             and websites. We are going to provide information, guidance, and
