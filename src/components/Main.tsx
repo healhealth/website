@@ -1,8 +1,9 @@
-import VisionAndMission from "./VisionAndMission";
-import Services from "./Services";
-import Team from "./Team";
 // import Support from "./Support";
-import Join from "./Join";
+import VisionAndMission from "../components/VisionAndMission";
+import Services from "../components/Services";
+import Team from "../components/Team";
+import Join from "../components/Join";
+
 
 import "./Main.css";
 

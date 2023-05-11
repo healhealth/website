@@ -1,7 +1,7 @@
 import "./Services.css";
-import { ReactComponent as MentalHealthProfessionals } from "./mental-health-professionals.svg";
-import { ReactComponent as SelfHelp } from "./self-help.svg";
-import { ReactComponent as Coaching } from "./coaching.svg";
+import { ReactComponent as MentalHealthProfessionals } from "../assets/mental-health-professionals.svg";
+import { ReactComponent as SelfHelp } from "../assets/self-help.svg";
+import { ReactComponent as Coaching } from "../assets/coaching.svg";
 
 const Services = () => (
   <div className="site-main-inner-wrapper">

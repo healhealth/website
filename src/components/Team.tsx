@@ -1,9 +1,10 @@
-import Nashmil from "./nashmil.jpg";
-import Bence from "./bence-a-toth.jpg";
-import Qamar from "./qamar.jpg";
-import Aijaz from "./aijaz.jpg";
-import Behzad from "./behzad.jpg";
-import Marcell from "./marcell.jpg";
+
+import Nashmil from "../images/nashmil.jpg";
+import Bence from "../images/bence-a-toth.jpg";
+import Qamar from "../images/qamar.jpg";
+import Aijaz from "../images/aijaz.jpg";
+import Behzad from "../images/behzad.jpg";
+import Marcell from "../images/marcell.jpg";
 
 import "./Team.css";
 
