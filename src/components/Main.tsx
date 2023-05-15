@@ -2,6 +2,7 @@
 import VisionAndMission from "../components/VisionAndMission";
 import Services from "../components/Services";
 import Team from "../components/Team";
+import OurCoreValue from "./OurCoreValue";
 import Join from "../components/Join";
 
 
@@ -13,6 +14,7 @@ const Main = () => (
     <Services />
     <Team />
     {/* <Support /> */}
+    <OurCoreValue />
     <Join />
   </main>
 );

@@ -1,8 +1,8 @@
-import "./Join.css";
-const Join = () => (
-  <div className="site-main-inner-wrapper dark">
-    <section className="join">
-      <h2>Join us</h2>
+import "./OurCoreValue.css";
+const OurCoreValue = () => (
+  <div className="site-main-inner-wrapper-core">
+    <section>
+      <h2>Our Core Value</h2>
       <p>
         Are you passionate about mental health and technology? Are you looking
         for an opportunity to gain experience and make a difference in the
@@ -29,4 +29,4 @@ const Join = () => (
   </div>
 );
 
-export default Join;
+export default OurCoreValue;
