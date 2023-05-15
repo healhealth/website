@@ -4,8 +4,6 @@ import Services from "../components/Services";
 import Team from "../components/Team";
 import OurCoreValue from "./OurCoreValue";
 import Join from "../components/Join";
-
-
 import "./Main.css";
 
 const Main = () => (
