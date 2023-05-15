@@ -1,4 +1,3 @@
-import React from "react";
 import "./OurCoreValue.css";
 
 const OurCoreValue = () => (
