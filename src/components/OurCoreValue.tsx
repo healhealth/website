@@ -1,4 +1,5 @@
 import "./OurCoreValue.css";
+
 const OurCoreValue = () => (
   <div className="site-main-inner-wrapper-core">
     <section>
