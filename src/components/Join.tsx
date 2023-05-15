@@ -1,4 +1,4 @@
-import "./Join.css";
+
 const Join = () => (
   <div className="site-main-inner-wrapper dark">
     <section className="join">
