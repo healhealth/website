@@ -1,6 +1,6 @@
 .site-footer {
-  color: var(--color-lightgray);
-  background-color: var(--color-darkgray);
+  background-color: var(--color-lightgray);
+  color: var(--color-darkgray);
 }
 
 .site-footer-inner-wrapper {
