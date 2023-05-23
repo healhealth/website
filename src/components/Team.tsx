@@ -1,7 +1,7 @@
 import Nashmil from "../images/nashmil.jpg";
 import Bence from "../images/bence-a-toth.jpg";
 import Qamar from "../images/qamar.jpg";
-import Aijaz from "../images/aijaz.jpg";
+import Dejene from "../images/dejene.jpg";
 import Behzad from "../images/behzad.jpg";
 import Marcell from "../images/marcell.jpg";
 
@@ -62,14 +62,14 @@ const Team = () => (
             multiple geographies.
           </p>
         </div>
-        <div className="team-member">
-          <img src={Aijaz} alt="" />
+        <div className="team-member"> 
+          <img src={Dejene} alt="" />
           <div>
-            <div className="name">Aijaz Ahmad</div>
-            <div className="role">Software Engineer</div>
+            <div className="name">Dejene Daba</div>
+            <div className="role">Frontend Developer</div>
           </div>
           <p>
-            Passionate and creative Frontend Engineer. Naturally out of the box
+            Passionate and creative Frontend Developer. Naturally out of the box
             thinker. Open-minded, strong team-player and always thriving to
             learn new technologies.
           </p>
