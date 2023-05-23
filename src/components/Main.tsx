@@ -2,7 +2,7 @@
 import VisionAndMission from "../components/VisionAndMission";
 import Services from "../components/Services";
 import Team from "../components/Team";
-import OurCoreValue from "./OurCoreValue";
+import OurCoreValue from "../components/OurCoreValue";
 import Join from "../components/Join";
 import "./Main.css";
 

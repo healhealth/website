@@ -1,0 +1,11 @@
+.join-us-button {
+    background-color: hsl(173deg 100% 33%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 2px splod red;
+  }
+  .join-us-button:hover {
+    color: black;
+  }
