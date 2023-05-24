@@ -62,7 +62,7 @@ const Team = () => (
             multiple geographies.
           </p>
         </div>
-        <div className="team-member"> 
+        <div className="team-member">
           <img src={Dejene} alt="" />
           <div>
             <div className="name">Dejene Daba</div>
