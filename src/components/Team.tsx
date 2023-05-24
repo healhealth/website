@@ -1,7 +1,7 @@
 import Nashmil from "../images/nashmil.jpg";
 import Bence from "../images/bence-a-toth.jpg";
 import Qamar from "../images/qamar.jpg";
-import Dejene from "../images/dejene.jpg";
+import Dejene from "../images/dejene.png";
 import Behzad from "../images/behzad.jpg";
 import Marcell from "../images/marcell.jpg";
 
