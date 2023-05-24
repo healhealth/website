@@ -8,12 +8,12 @@ const OurCoreValue = () => (
       <p>
       <h3>Promoting Mental Wellbeing</h3>
          Many of our important values fall under this crucial category, reflecting our mission, by promoting:
-<ul>
-  <li>Opportunity For Growth (Learning and Accomplishment)</li>
-  <li>Mattering At Work (Dignity and Meaning)</li> 
-  <li>Work-Life Harmony (Autonomy and Flexibility)</li> 
-  <li>Connection and Community (Belonging and Social Support)</li>
-</ul>
+
+ <p>&#x2022; Opportunity For Growth (Learning and Accomplishment)</p> 
+  <p>&#x2022; Mattering At Work (Dignity and Meaning)</p>
+  <p>&#x2022; Work-Life Harmony (Autonomy and Flexibility)</p>
+  <p>&#x2022; Connection and Community (Belonging and Social Support)</p>
+
       </p>
       <p>
       <h3>utual Respect</h3>
