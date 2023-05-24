@@ -1,8 +1,7 @@
-// import Support from "./Support";
 import VisionAndMission from "../components/VisionAndMission";
 import Services from "../components/Services";
 import Team from "../components/Team";
-import OurCoreValue from "../components/OurCoreValue";
+import OurCoreValues from "../components/OurCoreValues";
 import Join from "../components/Join";
 import "./Main.css";
 
@@ -11,8 +10,7 @@ const Main = () => (
     <VisionAndMission />
     <Services />
     <Team />
-    {/* <Support /> */}
-    <OurCoreValue />
+    <OurCoreValues />
     <Join />
   </main>
 );
