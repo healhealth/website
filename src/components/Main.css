@@ -35,5 +35,5 @@ a {
   text-decoration: none;
 }
 a:hover{
-color: hsl(173deg 100% 33%);
+color: hsl(173deg, 100%, 33%);
 }

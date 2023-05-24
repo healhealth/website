@@ -21,7 +21,7 @@ const Join = () => (
         We value diversity and welcome applicants with a wide range of
         backgrounds and experiences. If you’re interested in joining our team
         and making a meaningful impact in the field of mental health, please get
-        in touch with us at the email address:<a href="mailto:nashmil@healhealth.dk">nashmil@healhealth.dk</a>. We look
+        in touch with us at the email address: <a href="mailto:nashmil@healhealth.dk">nashmil@healhealth.dk</a>. We look
         forward to hearing from you and working together to make mental health
         care accessible to all.
       </p>
