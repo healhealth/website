@@ -1,5 +1,5 @@
 .site-header {
-  border-bottom: 1px solid hsl(0deg 0% 85%);
+  border-bottom: 1px solid oklch(from var(--color-lightgray) 85% c h);
 }
 
 .site-header-inner-wrapper {
