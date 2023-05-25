@@ -1,11 +1,19 @@
-.join-us-button {
-    background-color: hsl(173deg 100% 33%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-  }
+.join-us-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
-  .join-us-button:hover {
-    color: black;
-  }
+.join-us-button {
+  background-color: var(--color-brand);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.join-us-button:is(:hover, :active, :focus) {
+  text-decoration: none;
+  background-color: var(--color-brand-dark);
+}

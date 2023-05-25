@@ -30,10 +30,8 @@
   line-height: 1.65;
   margin-bottom: 1.5em;
 }
-a {
-  color: var(--color-lightgray);
-  text-decoration: none;
-}
-a:hover{
-color: hsl(173deg, 100%, 33%);
+
+.site-main ul {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
 }
