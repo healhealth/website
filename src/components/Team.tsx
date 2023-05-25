@@ -1,7 +1,7 @@
 import Nashmil from "../images/nashmil.jpg";
 import Bence from "../images/bence-a-toth.jpg";
 import Qamar from "../images/qamar.jpg";
-import Dejene from "../images/dejene.png";
+import Dejene from "../images/dejene.jpg";
 import Behzad from "../images/behzad.jpg";
 import Marcell from "../images/marcell.jpg";
 
@@ -69,9 +69,8 @@ const Team = () => (
             <div className="role">Frontend Developer</div>
           </div>
           <p>
-            Passionate and creative Frontend Developer. Naturally out of the box
-            thinker. Open-minded, strong team-player and always thriving to
-            learn new technologies.
+            Passionate front-end developer with a desire to learn and grow in a collaborative
+           team environment
           </p>
         </div>
         <div className="team-member">
