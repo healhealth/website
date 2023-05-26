@@ -70,7 +70,7 @@ const Team = () => (
           </div>
           <p>
             Passionate front-end developer with a desire to learn and grow in a collaborative
-           team environment
+            team environment
           </p>
         </div>
         <div className="team-member">
