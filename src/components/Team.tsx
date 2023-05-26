@@ -1,9 +1,9 @@
-import Nashmil from "./nashmil.jpg";
-import Bence from "./bence-a-toth.jpg";
-import Qamar from "./qamar.jpg";
-import Aijaz from "./aijaz.jpg";
-import Behzad from "./behzad.jpg";
-import Marcell from "./marcell.jpg";
+import Nashmil from "../images/nashmil.jpg";
+import Bence from "../images/bence-a-toth.jpg";
+import Qamar from "../images/qamar.jpg";
+import Dejene from "../images/dejene.jpg";
+import Behzad from "../images/behzad.jpg";
+import Marcell from "../images/marcell.jpg";
 
 import "./Team.css";
 
@@ -63,15 +63,14 @@ const Team = () => (
           </p>
         </div>
         <div className="team-member">
-          <img src={Aijaz} alt="" />
+          <img src={Dejene} alt="" />
           <div>
-            <div className="name">Aijaz Ahmad</div>
-            <div className="role">Software Engineer</div>
+            <div className="name">Dejene Daba</div>
+            <div className="role">Frontend Developer</div>
           </div>
           <p>
-            Passionate and creative Frontend Engineer. Naturally out of the box
-            thinker. Open-minded, strong team-player and always thriving to
-            learn new technologies.
+            Passionate front-end developer with a desire to learn and grow in a
+            collaborative team environment
           </p>
         </div>
         <div className="team-member">

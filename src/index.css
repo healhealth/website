@@ -19,9 +19,11 @@ body {
   color: var(--color-darkgray);
 
   --site-max-width: 800px;
-  --color-brand: hsl(173deg 100% 33%);
-  --color-lightgray: hsl(0deg 0% 97.5%);
-  --color-darkgray: hsl(0deg 0% 12.5%);
+  --color-brand: oklch(65.59% 0.118 181);
+  --color-brand-dark: oklch(55.59% 0.118 181);
+  --color-white: white;
+  --color-lightgray: oklch(98.21% 0 0);
+  --color-darkgray: oklch(24.35% 0 0);
 }
 
 ::-webkit-scrollbar {
@@ -40,4 +42,13 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-darkgray);
+}
+
+a {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+a:is(:hover, :active, :focus) {
+  text-decoration: underline;
 }

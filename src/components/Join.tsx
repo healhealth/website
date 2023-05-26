@@ -1,5 +1,6 @@
+import "./Join.css";
 const Join = () => (
-  <div className="site-main-inner-wrapper">
+  <div className="site-main-inner-wrapper dark">
     <section>
       <h2>Join us</h2>
       <p>
@@ -18,12 +19,18 @@ const Join = () => (
       </p>
       <p>
         We value diversity and welcome applicants with a wide range of
-        backgrounds and experiences. If you're interested in joining our team
+        backgrounds and experiences. If you’re interested in joining our team
         and making a meaningful impact in the field of mental health, please get
-        in touch with us at the email address: nashmil@healhealth.dk. We look
+        in touch with us at
+        <a href="mailto:info@healhealth.dk">info@healhealth.dk</a>. We look
         forward to hearing from you and working together to make mental health
         care accessible to all.
       </p>
+      <div className="join-us-button-wrapper">
+        <a href="mailto:info@healhealth.dk" className="join-us-button">
+          Join us today
+        </a>
+      </div>
     </section>
   </div>
 );

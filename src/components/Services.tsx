@@ -1,7 +1,7 @@
 import "./Services.css";
-import { ReactComponent as MentalHealthProfessionals } from "./mental-health-professionals.svg";
-import { ReactComponent as SelfHelp } from "./self-help.svg";
-import { ReactComponent as Coaching } from "./coaching.svg";
+import { ReactComponent as MentalHealthProfessionals } from "../assets/mental-health-professionals.svg";
+import { ReactComponent as SelfHelp } from "../assets/self-help.svg";
+import { ReactComponent as Coaching } from "../assets/coaching.svg";
 
 const Services = () => (
   <div className="site-main-inner-wrapper">
@@ -25,9 +25,9 @@ const Services = () => (
           <h3>Self-help tools</h3>
           <p>
             We are developing free efficient self-help tools for mental
-            well-being which can be utilized by both individuals and prescribed
+            wellbeing which can be utilized by both individuals and prescribed
             by professionals to their clients. Individuals can use the tools to
-            improve their mental well-being and manage their mental health
+            improve their mental wellbeing and manage their mental health
             symptoms. These tools can take many forms, including apps, videos,
             and websites. We are going to provide information, guidance, and
             techniques for managing stress, improving mood, and addressing
